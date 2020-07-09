@@ -1,0 +1,108 @@
+.App {
+  background: #6d01b3 !important;
+  min-width: 100vw;
+  min-height: 100vh;
+ /* display: flex;
+  align-items: center;
+  justify-content: center;
+  */
+}
+
+.MuiAppBar-colorPrimary {
+  color:#e1e0e0 !important;
+  background-color: #3f51b5;
+  background: #222430 !important;
+  padding:1rem;
+
+}
+
+
+
+.logo {
+ margin-right: 1rem;
+}
+
+.menu{
+float:right;
+}
+
+.germaphobe{
+  padding-top:10vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.MuiPaper-root .MuiAppBar-colorDefault, .MuiPaper-elevation1 {
+  color:#ebebeb !important;
+  background-color: transparent !important;
+}
+
+.MuiPaper-elevation1 input{
+  font-size: 2.9rem;
+}
+.MuiPaper-elevation1{
+box-shadow:none !important;
+
+}
+
+.MuiInputBase-input {
+  font: inherit;
+  color: #ffffff !important;
+}
+
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiButton-containedPrimary {
+  color: #fff;
+  background-color: #8e00f2 !important;
+  font-size: 2.9rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
